@@ -215,7 +215,7 @@ WRITE(*,*)'   '
 !IMAGEN
 	OPEN(20,FILE="dibujar.plt",STATUS="UNKNOWN")
 		WRITE(20,*)'unset key'
-		WRITE(20,*)'set title "Electrón rodeado por campo electrico"'
+		WRITE(20,*)'set title "interacción electrón-anillo de protones"'
 		WRITE(20,*)'set xlabel "X"'
 		WRITE(20,*)'set ylabel "Y"'
         WRITE(20,*)'set zlabel "Z"'
