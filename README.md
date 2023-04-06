@@ -21,3 +21,8 @@ Subrutina:
 
 
 Como salida tenemos 3 archivos .dat donde estarán la posición del electrón, trayectoriaElectron.dat, sus energías, energias.dat, y las posiciones del anillo, anilloCargado.dat. Además, una imagen donde estará la trayectoria tomada por el electrón en el intervalo de tiempo, trayectoria.png.
+
+<p align="center" width="100%">
+    <img width="50%" src="https://user-images.githubusercontent.com/91238149/230496516-db8aeb81-ef8f-4cc2-a5b6-e6500e85533e.png">
+</p>
+
