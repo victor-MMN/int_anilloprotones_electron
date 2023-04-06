@@ -220,7 +220,7 @@ WRITE(*,*)'   '
 		WRITE(20,*)'set ylabel "Y"'
         WRITE(20,*)'set zlabel "Z"'
         WRITE(20,*)'set terminal png'
-        WRITE(20,*)'set output "Trayectoria.png"'
+        WRITE(20,*)'set output "trayectoria.png"'
 		WRITE(20,*)'splot "trayectoriaElectron.dat" u 2:3:4,"anilloCargado.dat"'
 Close(20)
 CALL system('gnuplot -p "dibujar.plt"')  
