@@ -37,7 +37,7 @@ MODULE objetos_cargados
   END TYPE particula_cargada
 
 
-  !! Tipo publico para producir objetos del tipo estrella
+  !! Tipo publico para producir objetos de la simulacion
 
   TYPE, PUBLIC :: data
 
