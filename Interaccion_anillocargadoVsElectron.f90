@@ -98,7 +98,7 @@ WRITE(*,*)'   '
 
  !! Abriendo el archivo de texto para escribir las posiciones del electron.
 
-  OPEN ( NEWUNIT = unito, FILE = "TrayectoriaElectron", ACTION = "write", STATUS = "unknown" )
+  OPEN ( NEWUNIT = unito, FILE = "trayectoriaElectron.dat", ACTION = "write", STATUS = "unknown" )
 
   t = 0  !! La simulacion inicia al tiempo 0
 
@@ -161,7 +161,7 @@ WRITE(*,*)'   '
 
      !! Calculando las energias; cinetica, potencial y mecanica.
 
-      OPEN(1,FILE ="EP_VS_EK.dat",STATUS="UNKNOWN")
+      OPEN(1,FILE ="energias.dat",STATUS="UNKNOWN")
 
         EP = mag(FNelec) * mag(sim%difr)
 
@@ -197,7 +197,7 @@ WRITE(*,*)'   '
 
   !! Este archivo sirve para la informacion del anillo de protones.
 
-  OPEN ( NEWUNIT = unito, FILE = "Anillocargado",ACTION = "write", STATUS = "UNKNOWN" )
+  OPEN ( NEWUNIT = unito, FILE = "anilloCargado.dat",ACTION = "write", STATUS = "UNKNOWN" )
 
    DO i = 1,n
   
